@@ -12,3 +12,6 @@ Within the Transformer class, I employed the PySpark DataFrame API and Spark SQL
 The Loader component concludes the pipeline, seamlessly dispatching the transformed data to designated sinks. Here, I implemented two distinct sink strategies: one leveraging Delta Tables for streamlined data management, and another utilizing DBFS files in Parquet format, facilitating compatibility and efficiency.
 
 By adhering to this structured approach and harnessing the capabilities of PySpark within a Factory Pattern paradigm, I ensured the development of production-ready ETL pipelines capable of handling diverse datasets and evolving business requirements.
+
+
+Problem statement & Solution credits to @Ankur Ranjan.
