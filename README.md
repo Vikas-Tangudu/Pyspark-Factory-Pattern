@@ -1,7 +1,7 @@
-# Pyspark-Factory-Pattern
+# Pyspark through Factory-Pattern design on the Databricks platform
 In this project, I leveraged DataBricks to craft multiple ETL pipelines using the Python API of Apache Spark, PySpark, implementing the Factory Pattern for robust and scalable code.
 
-The dataset I utilized comprises sample ecommerce information, encompassing customer details, product specifics, and transaction records, sourced from the source_csv_files folder.
+The dataset I utilized comprises sample e-commerce information, encompassing customer details, product specifics, and transaction records, sourced from the source_csv_files folder.
 
 The Factory Pattern emerges as a cornerstone in Data Engineering pipelines, particularly those dealing with diverse data sources. By adhering closely to this pattern, I architected classes for reading, extracting, transforming, loading, orchestrating workflows, and managing sinks.
 
